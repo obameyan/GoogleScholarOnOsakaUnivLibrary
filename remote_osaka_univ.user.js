@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name     Google_Scholar_on_UTokyo_gateway
+// @name     Google_Scholar_on_Osaka_University_Library
 // @version  1
 // @include  https://scholar.google*
 // @grant    none
