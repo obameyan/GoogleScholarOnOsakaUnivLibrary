@@ -1,7 +1,6 @@
 # GoogleScholarOnOsakaUnivLibrary
 ## 概要
-東京大学ではUTokyo SSL-VPN Gateway経由でのサイトにアクセスできるらしいので、大阪大学でも図書館の電子ジャーナル経由
-でGoogle Schalorの論文にアクセスできるようにした。
+Google Scholarのリンクを自動的に書き換え、大阪大学の提供するリモートアクセスサービス経由で電子リソースにアクセスするためのプラグインです。
 
 参考にしたgithubはこちら
 https://github.com/Tagussan/GoogleScholarOnUTokyoGateway
