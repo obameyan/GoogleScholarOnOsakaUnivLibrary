@@ -1,0 +1,2 @@
+# GoogleScholarOnOsakaUnivLibrary
+Google Scholar
