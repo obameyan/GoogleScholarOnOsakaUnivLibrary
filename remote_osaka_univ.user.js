@@ -8,14 +8,10 @@
 
 function get_gateway_url(url) {
   const url_obj = new URL(url);
-  if (url.match('arxiv')) {
-    return url;
-  } else {
-    return 'http://' + url_obj.hostname + '.remote.library.osaka-u.ac.jp' + url_obj.pathname + url_obj.search;
-  }
+  return 'http://' + url_obj.hostname + '.remote.library.osaka-u.ac.jp' + url_obj.pathname + url_obj.search;
 }
 
-/*
+
 (function () {
   const links = Array.from(document.getElementsByTagName('a'));
   const re_url = new RegExp('^(https?|ftp):\/\/');
@@ -27,8 +23,8 @@ function get_gateway_url(url) {
     link.href = get_gateway_url(link.href);
   });
 })();
-*/
 
+/*
 function article_page_block(block) {
   if ($(block).find("span.gs_ctc").length == 1) { //[PDF] or [HTML]
     return false;
@@ -52,3 +48,4 @@ function article_page_block(block) {
     }
   });
 })();
+*/
