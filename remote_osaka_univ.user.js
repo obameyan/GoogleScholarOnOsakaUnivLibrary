@@ -8,7 +8,11 @@
 
 function get_gateway_url(url) {
   const url_obj = new URL(url);
-  return 'http://' + url_obj.hostname + '.remote.library.osaka-u.ac.jp' + url_obj.pathname + url_obj.search;
+  if (url.match('arxiv')) {
+    return url;
+  } else {
+    return 'http://' + url_obj.hostname + '.remote.library.osaka-u.ac.jp' + url_obj.pathname + url_obj.search;
+  }
 }
 
 /*
