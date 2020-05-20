@@ -2,6 +2,7 @@
 ## 概要
 Google Scholarのリンクを自動的に書き換え、大阪大学の提供するリモートアクセスサービス経由で電子リソースにアクセスするためのプラグインです。コロナ期間中ではアクセスできるジャーナルも増えていますので以下URLを参考にしてください。
 https://www.library.osaka-u.ac.jp/off_campus/
+
 https://www.library.osaka-u.ac.jp/off_campus_covid-19/
 
 
